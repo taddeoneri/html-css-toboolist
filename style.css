@@ -17,33 +17,119 @@ header h1{
     background-color: #ffffff;
     font-weight: 900;
     font-size: 60px;
-    line-height: 90px;
-
+    vertical-align: top;
+    padding-top: 10px;
 }
 header img{
     width: 70px;
+    padding-top: 10px;
 }
 main{
     width: 70%;
-    height: 500px;
     background-color: #ffffff;
     margin: 50px auto;
 }
 .navbar{
-    background-color: black;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #9c9c9c;
 }
-.navbar input{
-    background-color: #f6f8f9;
-    border-radius: 20%;
+.first-botton{
     width: 70px;
+    height: 25px;
+    display: inline-block;
+    background-color: #47adf1;
+    margin-right: 7px;
+    border-radius: 16%;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
 }
-.lista{
+.second-botton{
+    width: 84px;
+    height: 25px;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 16%;
+    border: solid 1px #9c9c9c;
+    color: #9c9c9c;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+}
+.list{
     padding: 20px 50px;
     line-height: 28px;
 }
-.titolo-lista{
+.title-list{
     list-style-type: none;
     padding-top: 30px;
     font-weight: bold;
     font-size: 22px;
+    display: inline-block;
+    
+}
+.true{
+    list-style-type: none;
+    font-size: 18px;
+    display: inline-block;
+}
+.false{
+    list-style-type: none;
+    font-size: 18px;
+    display: inline-block;
+}
+.circle1{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: solid 1px #97d5c6;
+    display: inline-block;
+    line-height: 15px;
+}
+.circle2{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: solid 1px #e94840;
+    display: inline-block;
+    line-height: 15px;
+}
+.span-true{
+    color: #97d5c6;
+}
+.span-false{
+    color: #e94840;
+}
+.estensione{
+    width: 43px; 
+    height: 20px;   
+    display: inline-block;
+}
+.blue{
+    background-color: #42a9e9;
+}
+.purple{
+    background-color: #9c72e4;
+}
+.green1{
+    background-color: #64c0a9;
+}
+.orange{
+    background-color: #f19e31;
+}
+.green2{
+    background-color: #b0c926;
+}
+.pink{
+    background-color: #d863a1;
+}
+.white{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: 21px;
 }
